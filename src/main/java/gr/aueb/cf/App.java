@@ -72,6 +72,10 @@ public class App {
 //        }
 
 
+        /*
+        Criteria API
+         */
+
         // Find όλους τους active teachers σε ένα region
         CriteriaBuilder cb = em.getCriteriaBuilder();
         CriteriaQuery<Teacher> query = cb.createQuery(Teacher.class);
